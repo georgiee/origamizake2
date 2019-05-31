@@ -362,11 +362,8 @@ export const centroid = function(points) {
   return mul(points.reduce(plus), 1.0 / points.length);
 };
 
-export const basis = function(ps, eps) {
+export const basis = function(ps, eps = EPS) {
   var d, ds, n, ns, p, x, y, z;
-  if (eps == null) {
-    eps = EPS;
-  }
   if (((function() {
     var k, len, results;
     results = [];
@@ -472,11 +469,8 @@ export const above = function(ps, qs, n, eps) {
   return 0;
 };
 
-export const separatingDirection2D = function(t1, t2, n, eps) {
+export const separatingDirection2D = function(t1, t2, n, eps = EPS) {
   var i, j, k, l, len, len1, len2, m, o, p, q, ref, sign, t;
-  if (eps == null) {
-    eps = EPS;
-  }
   ref = [t1, t2];
   for (k = 0, len = ref.length; k < len; k++) {
     t = ref[k];
@@ -500,11 +494,8 @@ export const separatingDirection2D = function(t1, t2, n, eps) {
   return null;
 };
 
-export const separatingDirection3D = function(t1, t2, eps) {
+export const separatingDirection3D = function(t1, t2, eps = EPS) {
   var i, j, k, l, len, len1, len2, len3, m, o, p, q1, q2, r, ref, ref1, sign, x1, x2;
-  if (eps == null) {
-    eps = EPS;
-  }
   ref = [[t1, t2], [t2, t1]];
   for (k = 0, len = ref.length; k < len; k++) {
     ref1 = ref[k], x1 = ref1[0], x2 = ref1[1];

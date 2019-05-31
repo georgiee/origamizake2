@@ -23,6 +23,64 @@
       font-size: 0;
     }
   </style>
+
+  <style>
+    .origami-face {
+      stroke: none; fill-opacity: 0.8;
+    }
+
+    .origami-face__text {
+      fill: black; font-size: 0.04px; text-anchor: middle; font-family: sans-serif;
+      transform: translate(0, 0.01px);
+    }
+
+    .origami-face--top {
+      fill: cyan;
+    }
+    .origami-face--bottom {
+      fill: yellow;
+    }
+
+    .origami-edge {
+      fill: none; stroke-width: 0.01; stroke-linecap: round;
+    }
+
+
+
+    /* "B": border/boundary edge (only one incident face) */
+    .origami-edge--direction-B {
+      stroke: black;
+    }
+
+    /* "V": valley fold */
+    .origami-edge--direction-V {
+      stroke: blue;
+    }
+
+    /* "M": mountain fold */
+    .origami-edge--direction-M {
+      stroke: red;
+    }
+
+    /* "U": unassigned/unknown */
+    .origami-edge--direction-U {
+      stroke: white;
+    }
+
+    /* "F": flat (unfolded) fold */
+    .origami-edge--direction-F {
+      stroke: gray;
+    }
+
+    .origami-vertex__text {
+      fill: black; font-size: 0.04px; text-anchor: middle; font-family: sans-serif;
+      transform: translate(0, 0.01px);
+    }
+
+    .origami-vertex__circle {
+      fill: white; r: 0.03; stroke: black; stroke-width: 0.005;
+    }
+  </style>
 </head>
 <body>
 
