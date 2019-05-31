@@ -1,5 +1,6 @@
-import { createdFaceEdges, createEdgeMap } from './make-model';
+import { createdFaceEdges, createEdgeMap, parseFoldModel, createFaceOrder } from './make-model';
 import { Face, Vertex } from './model';
+import { SIMPLE_FOLD } from '../folding-examples/simple-fold';
 
 describe('do it', () => {
 
@@ -38,5 +39,12 @@ describe('do it', () => {
     expect(faceEdges).toMatchSnapshot();
   })
 
+  test('createFaceOrders', () => {
+    const parsedModel = parseFoldModel(SIMPLE_FOLD);
+    parsedModel.faces.forEach(face => {
+      createFaceOrder(face, SIMPLE_FOLD.faceOrders, parsedModel.faces);
+    });
 
+    expect(parsedModel.faces).toMatchSnapshot();
+  })
 })

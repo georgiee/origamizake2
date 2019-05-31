@@ -200,11 +200,8 @@ export const cross = function(a, b) {
   return null;
 };
 
-export const parallel = function(a, b, eps) {
+export const parallel = function(a, b, eps = EPS) {
   var ref, ua, ub, v;
-  if (eps == null) {
-    eps = EPS;
-  }
   ref = (function() {
     var k, len, ref, results;
     ref = [a, b];

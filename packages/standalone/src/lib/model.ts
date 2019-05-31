@@ -11,6 +11,7 @@ export type Face = {
   n?: Vector //normal,
   c?: Vector  //centroid,
   es?: any //edges
+  ord?: any;
 }
 
 export type Edge = {

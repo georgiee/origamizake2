@@ -1,21 +1,14 @@
-import { SIMPLE_FOLD } from './simple-fold';
+import { SIMPLE_FOLD } from './folding-examples/simple-fold';
+// import { SQUARE_TWIST } from './folding-examples/square-twist';
+
 import { makeModel } from './lib/make-model';
+import { drawModel } from './lib/draw-model';
 
-function createSVGElement(tagName) {
-  return document.createElementNS('http://www.w3.org/2000/svg', tagName);
-}
-
-function draw(svg: HTMLOrSVGElement) {
-  console.log(svg);
-  const face = createSVGElement('g');
-
-}
 
 export function run() {
   console.log('rin3');
 
   const svg = document.getElementById('svgCanvas') as HTMLOrSVGElement;
   const model = makeModel(SIMPLE_FOLD);
-  console.log({model})
-  draw(svg);
+  drawModel(model, svg);
 }

@@ -63,6 +63,870 @@ Object {
 }
 `;
 
+exports[`do it createFaceOrders 1`] = `
+Array [
+  Object {
+    "c": Array [
+      0,
+      0,
+      0.3333333333333333,
+    ],
+    "es": Array [
+      Object {
+        "as": "M",
+        "raw": Array [
+          Array [
+            0,
+            2,
+          ],
+          Array [
+            0,
+            1,
+          ],
+          Array [
+            1,
+            2,
+          ],
+          Array [
+            2,
+            3,
+          ],
+          Array [
+            0,
+            3,
+          ],
+          Array [
+            1,
+            4,
+          ],
+          Array [
+            1,
+            5,
+          ],
+          Array [
+            0,
+            4,
+          ],
+          Array [
+            2,
+            5,
+          ],
+        ],
+        "v1": Object {
+          "cs": Array [
+            0,
+            1,
+            0,
+          ],
+          "i": 0,
+        },
+        "v2": Object {
+          "cs": Array [
+            0,
+            0,
+            1,
+          ],
+          "i": 1,
+        },
+      },
+      Object {
+        "as": "M",
+        "raw": Array [
+          Array [
+            0,
+            2,
+          ],
+          Array [
+            0,
+            1,
+          ],
+          Array [
+            1,
+            2,
+          ],
+          Array [
+            2,
+            3,
+          ],
+          Array [
+            0,
+            3,
+          ],
+          Array [
+            1,
+            4,
+          ],
+          Array [
+            1,
+            5,
+          ],
+          Array [
+            0,
+            4,
+          ],
+          Array [
+            2,
+            5,
+          ],
+        ],
+        "v1": Object {
+          "cs": Array [
+            0,
+            0,
+            1,
+          ],
+          "i": 1,
+        },
+        "v2": Object {
+          "cs": Array [
+            0,
+            -1,
+            0,
+          ],
+          "i": 2,
+        },
+      },
+      Object {
+        "as": "V",
+        "raw": Array [
+          Array [
+            0,
+            2,
+          ],
+          Array [
+            0,
+            1,
+          ],
+          Array [
+            1,
+            2,
+          ],
+          Array [
+            2,
+            3,
+          ],
+          Array [
+            0,
+            3,
+          ],
+          Array [
+            1,
+            4,
+          ],
+          Array [
+            1,
+            5,
+          ],
+          Array [
+            0,
+            4,
+          ],
+          Array [
+            2,
+            5,
+          ],
+        ],
+        "v1": Object {
+          "cs": Array [
+            0,
+            1,
+            0,
+          ],
+          "i": 0,
+        },
+        "v2": Object {
+          "cs": Array [
+            0,
+            -1,
+            0,
+          ],
+          "i": 2,
+        },
+      },
+    ],
+    "i": 0,
+    "n": Array [
+      1,
+      0,
+      0,
+    ],
+    "ord": Object {
+      "f2": -1,
+      "f3": -1,
+    },
+    "vs": Array [
+      Object {
+        "cs": Array [
+          0,
+          1,
+          0,
+        ],
+        "i": 0,
+      },
+      Object {
+        "cs": Array [
+          0,
+          0,
+          1,
+        ],
+        "i": 1,
+      },
+      Object {
+        "cs": Array [
+          0,
+          -1,
+          0,
+        ],
+        "i": 2,
+      },
+    ],
+  },
+  Object {
+    "c": Array [
+      0.3333333333333333,
+      0,
+      0,
+    ],
+    "es": Array [
+      Object {
+        "as": "V",
+        "raw": Array [
+          Array [
+            0,
+            2,
+          ],
+          Array [
+            0,
+            1,
+          ],
+          Array [
+            1,
+            2,
+          ],
+          Array [
+            2,
+            3,
+          ],
+          Array [
+            0,
+            3,
+          ],
+          Array [
+            1,
+            4,
+          ],
+          Array [
+            1,
+            5,
+          ],
+          Array [
+            0,
+            4,
+          ],
+          Array [
+            2,
+            5,
+          ],
+        ],
+        "v1": Object {
+          "cs": Array [
+            0,
+            1,
+            0,
+          ],
+          "i": 0,
+        },
+        "v2": Object {
+          "cs": Array [
+            0,
+            -1,
+            0,
+          ],
+          "i": 2,
+        },
+      },
+      Object {
+        "as": "B",
+        "raw": Array [
+          Array [
+            0,
+            2,
+          ],
+          Array [
+            0,
+            1,
+          ],
+          Array [
+            1,
+            2,
+          ],
+          Array [
+            2,
+            3,
+          ],
+          Array [
+            0,
+            3,
+          ],
+          Array [
+            1,
+            4,
+          ],
+          Array [
+            1,
+            5,
+          ],
+          Array [
+            0,
+            4,
+          ],
+          Array [
+            2,
+            5,
+          ],
+        ],
+        "v1": Object {
+          "cs": Array [
+            0,
+            -1,
+            0,
+          ],
+          "i": 2,
+        },
+        "v2": Object {
+          "cs": Array [
+            1,
+            0,
+            0,
+          ],
+          "i": 3,
+        },
+      },
+      Object {
+        "as": "B",
+        "raw": Array [
+          Array [
+            0,
+            2,
+          ],
+          Array [
+            0,
+            1,
+          ],
+          Array [
+            1,
+            2,
+          ],
+          Array [
+            2,
+            3,
+          ],
+          Array [
+            0,
+            3,
+          ],
+          Array [
+            1,
+            4,
+          ],
+          Array [
+            1,
+            5,
+          ],
+          Array [
+            0,
+            4,
+          ],
+          Array [
+            2,
+            5,
+          ],
+        ],
+        "v1": Object {
+          "cs": Array [
+            0,
+            1,
+            0,
+          ],
+          "i": 0,
+        },
+        "v2": Object {
+          "cs": Array [
+            1,
+            0,
+            0,
+          ],
+          "i": 3,
+        },
+      },
+    ],
+    "i": 1,
+    "n": Array [
+      0,
+      0,
+      1,
+    ],
+    "ord": Object {},
+    "vs": Array [
+      Object {
+        "cs": Array [
+          0,
+          1,
+          0,
+        ],
+        "i": 0,
+      },
+      Object {
+        "cs": Array [
+          0,
+          -1,
+          0,
+        ],
+        "i": 2,
+      },
+      Object {
+        "cs": Array [
+          1,
+          0,
+          0,
+        ],
+        "i": 3,
+      },
+    ],
+  },
+  Object {
+    "c": Array [
+      0,
+      0.3333333333333333,
+      0,
+    ],
+    "es": Array [
+      Object {
+        "as": "B",
+        "raw": Array [
+          Array [
+            0,
+            2,
+          ],
+          Array [
+            0,
+            1,
+          ],
+          Array [
+            1,
+            2,
+          ],
+          Array [
+            2,
+            3,
+          ],
+          Array [
+            0,
+            3,
+          ],
+          Array [
+            1,
+            4,
+          ],
+          Array [
+            1,
+            5,
+          ],
+          Array [
+            0,
+            4,
+          ],
+          Array [
+            2,
+            5,
+          ],
+        ],
+        "v1": Object {
+          "cs": Array [
+            0,
+            1,
+            0,
+          ],
+          "i": 0,
+        },
+        "v2": Object {
+          "cs": Array [
+            0,
+            0,
+            -1,
+          ],
+          "i": 4,
+        },
+      },
+      Object {
+        "as": "B",
+        "raw": Array [
+          Array [
+            0,
+            2,
+          ],
+          Array [
+            0,
+            1,
+          ],
+          Array [
+            1,
+            2,
+          ],
+          Array [
+            2,
+            3,
+          ],
+          Array [
+            0,
+            3,
+          ],
+          Array [
+            1,
+            4,
+          ],
+          Array [
+            1,
+            5,
+          ],
+          Array [
+            0,
+            4,
+          ],
+          Array [
+            2,
+            5,
+          ],
+        ],
+        "v1": Object {
+          "cs": Array [
+            0,
+            0,
+            1,
+          ],
+          "i": 1,
+        },
+        "v2": Object {
+          "cs": Array [
+            0,
+            0,
+            -1,
+          ],
+          "i": 4,
+        },
+      },
+      Object {
+        "as": "M",
+        "raw": Array [
+          Array [
+            0,
+            2,
+          ],
+          Array [
+            0,
+            1,
+          ],
+          Array [
+            1,
+            2,
+          ],
+          Array [
+            2,
+            3,
+          ],
+          Array [
+            0,
+            3,
+          ],
+          Array [
+            1,
+            4,
+          ],
+          Array [
+            1,
+            5,
+          ],
+          Array [
+            0,
+            4,
+          ],
+          Array [
+            2,
+            5,
+          ],
+        ],
+        "v1": Object {
+          "cs": Array [
+            0,
+            1,
+            0,
+          ],
+          "i": 0,
+        },
+        "v2": Object {
+          "cs": Array [
+            0,
+            0,
+            1,
+          ],
+          "i": 1,
+        },
+      },
+    ],
+    "i": 2,
+    "n": Array [
+      -1,
+      0,
+      0,
+    ],
+    "ord": Object {
+      "f0": -1,
+    },
+    "vs": Array [
+      Object {
+        "cs": Array [
+          0,
+          1,
+          0,
+        ],
+        "i": 0,
+      },
+      Object {
+        "cs": Array [
+          0,
+          0,
+          -1,
+        ],
+        "i": 4,
+      },
+      Object {
+        "cs": Array [
+          0,
+          0,
+          1,
+        ],
+        "i": 1,
+      },
+    ],
+  },
+  Object {
+    "c": Array [
+      0,
+      -0.3333333333333333,
+      0,
+    ],
+    "es": Array [
+      Object {
+        "as": "B",
+        "raw": Array [
+          Array [
+            0,
+            2,
+          ],
+          Array [
+            0,
+            1,
+          ],
+          Array [
+            1,
+            2,
+          ],
+          Array [
+            2,
+            3,
+          ],
+          Array [
+            0,
+            3,
+          ],
+          Array [
+            1,
+            4,
+          ],
+          Array [
+            1,
+            5,
+          ],
+          Array [
+            0,
+            4,
+          ],
+          Array [
+            2,
+            5,
+          ],
+        ],
+        "v1": Object {
+          "cs": Array [
+            0,
+            0,
+            1,
+          ],
+          "i": 1,
+        },
+        "v2": Object {
+          "cs": Array [
+            0,
+            0,
+            -1,
+          ],
+          "i": 5,
+        },
+      },
+      Object {
+        "as": "B",
+        "raw": Array [
+          Array [
+            0,
+            2,
+          ],
+          Array [
+            0,
+            1,
+          ],
+          Array [
+            1,
+            2,
+          ],
+          Array [
+            2,
+            3,
+          ],
+          Array [
+            0,
+            3,
+          ],
+          Array [
+            1,
+            4,
+          ],
+          Array [
+            1,
+            5,
+          ],
+          Array [
+            0,
+            4,
+          ],
+          Array [
+            2,
+            5,
+          ],
+        ],
+        "v1": Object {
+          "cs": Array [
+            0,
+            -1,
+            0,
+          ],
+          "i": 2,
+        },
+        "v2": Object {
+          "cs": Array [
+            0,
+            0,
+            -1,
+          ],
+          "i": 5,
+        },
+      },
+      Object {
+        "as": "M",
+        "raw": Array [
+          Array [
+            0,
+            2,
+          ],
+          Array [
+            0,
+            1,
+          ],
+          Array [
+            1,
+            2,
+          ],
+          Array [
+            2,
+            3,
+          ],
+          Array [
+            0,
+            3,
+          ],
+          Array [
+            1,
+            4,
+          ],
+          Array [
+            1,
+            5,
+          ],
+          Array [
+            0,
+            4,
+          ],
+          Array [
+            2,
+            5,
+          ],
+        ],
+        "v1": Object {
+          "cs": Array [
+            0,
+            0,
+            1,
+          ],
+          "i": 1,
+        },
+        "v2": Object {
+          "cs": Array [
+            0,
+            -1,
+            0,
+          ],
+          "i": 2,
+        },
+      },
+    ],
+    "i": 3,
+    "n": Array [
+      -1,
+      0,
+      0,
+    ],
+    "ord": Object {
+      "f0": -1,
+    },
+    "vs": Array [
+      Object {
+        "cs": Array [
+          0,
+          0,
+          1,
+        ],
+        "i": 1,
+      },
+      Object {
+        "cs": Array [
+          0,
+          0,
+          -1,
+        ],
+        "i": 5,
+      },
+      Object {
+        "cs": Array [
+          0,
+          -1,
+          0,
+        ],
+        "i": 2,
+      },
+    ],
+  },
+]
+`;
+
 exports[`do it createdFaceEdges 1`] = `
 Array [
   Object {
