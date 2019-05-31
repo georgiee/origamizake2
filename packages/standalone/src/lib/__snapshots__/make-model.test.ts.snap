@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`do it createEdgeMap 1`] = `
+Object {
+  "e0e1": Object {
+    "as": "V",
+    "raw": Array [
+      Array [
+        0,
+        1,
+      ],
+      Array [
+        1,
+        2,
+      ],
+    ],
+    "v1": Object {
+      "cs": Array [
+        1,
+        0,
+        0,
+      ],
+      "i": 0,
+    },
+    "v2": Object {
+      "cs": Array [
+        0,
+        1,
+        1,
+      ],
+      "i": 1,
+    },
+  },
+  "e1e2": Object {
+    "as": "M",
+    "raw": Array [
+      Array [
+        0,
+        1,
+      ],
+      Array [
+        1,
+        2,
+      ],
+    ],
+    "v1": Object {
+      "cs": Array [
+        0,
+        1,
+        1,
+      ],
+      "i": 1,
+    },
+    "v2": Object {
+      "cs": Array [
+        0,
+        0,
+        1,
+      ],
+      "i": 2,
+    },
+  },
+}
+`;
+
+exports[`do it createdFaceEdges 1`] = `
+Array [
+  Object {
+    "as": "V",
+    "raw": Array [
+      Array [
+        0,
+        1,
+      ],
+      Array [
+        1,
+        2,
+      ],
+    ],
+    "v1": Object {
+      "cs": Array [
+        1,
+        0,
+        0,
+      ],
+      "i": 0,
+    },
+    "v2": Object {
+      "cs": Array [
+        0,
+        1,
+        1,
+      ],
+      "i": 1,
+    },
+  },
+  Object {
+    "as": "M",
+    "raw": Array [
+      Array [
+        0,
+        1,
+      ],
+      Array [
+        1,
+        2,
+      ],
+    ],
+    "v1": Object {
+      "cs": Array [
+        0,
+        1,
+        1,
+      ],
+      "i": 1,
+    },
+    "v2": Object {
+      "cs": Array [
+        0,
+        0,
+        1,
+      ],
+      "i": 2,
+    },
+  },
+  Object {
+    "as": "U",
+    "v1": Object {
+      "cs": Array [
+        1,
+        0,
+        0,
+      ],
+      "i": 0,
+    },
+    "v2": Object {
+      "cs": Array [
+        0,
+        0,
+        1,
+      ],
+      "i": 2,
+    },
+  },
+]
+`;
+
+exports[`do it createdFaceEdges with no edgemap 1`] = `
+Array [
+  Object {
+    "as": "U",
+    "v1": Object {
+      "cs": Array [
+        1,
+        0,
+        0,
+      ],
+      "i": 0,
+    },
+    "v2": Object {
+      "cs": Array [
+        0,
+        1,
+        1,
+      ],
+      "i": 1,
+    },
+  },
+  Object {
+    "as": "U",
+    "v1": Object {
+      "cs": Array [
+        0,
+        1,
+        1,
+      ],
+      "i": 1,
+    },
+    "v2": Object {
+      "cs": Array [
+        0,
+        0,
+        1,
+      ],
+      "i": 2,
+    },
+  },
+  Object {
+    "as": "U",
+    "v1": Object {
+      "cs": Array [
+        1,
+        0,
+        0,
+      ],
+      "i": 0,
+    },
+    "v2": Object {
+      "cs": Array [
+        0,
+        0,
+        1,
+      ],
+      "i": 2,
+    },
+  },
+]
+`;
