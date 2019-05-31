@@ -1,0 +1,1 @@
+Digging again around the Origami folding science. See [LOG.md](LOG.md)
